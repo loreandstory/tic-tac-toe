@@ -12,17 +12,19 @@ Who makes the first play is decided at random at the beginning of each round. Yo
 
 `tic-tac-toe` requires the following:
 
-- `Ruby (>= 2.5.5)` (the programming language `tic-cac-toe` is written in. See [the official Ruby installation procedures](https://www.ruby-lang.org/en/documentation/installation/))
-- `bundler` (a Ruby gem for handling project dependencies. See [bundler's official installation instructions](https://bundler.io/#getting-started))
-- `tput` (used to check the size of the terminal `tic-tac-toe` is run withing. Installed by default on most Linux distributions)
+- `Ruby (>= 2.5.5)` (The programming language `tic-cac-toe` is written in. See [the official Ruby installation procedures](https://www.ruby-lang.org/en/documentation/installation/).)
+
+- `bundler` (A Ruby gem for handling project dependencies. Install by running `$ gem install bundler` after `Ruby` has been installed.)
+
+- `tput` (Used to check the size of the terminal `tic-tac-toe` is run withing. Installed by default on most Linux distributions.)
 
 ## Installation
 
-To install `tic-tac-toe`, simply clone this repository to your machine, navigate to the `tic-tac-toe` folder created, and use `bundler` to install the needed dependencies, as shown below:
+To install `tic-tac-toe`, simply clone this repository to your machine, navigate to the `tic-tac-toe` folder created, and use `bundler` to install the needed dependencies as shown below:
 
 ```
 $ git clone https://github.com/loreandstory/tic-tac-toe.git
-$ cd tic-tac-toe
+$ cd tic-tac-toe/
 $ bundle install
 ```
 
