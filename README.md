@@ -16,7 +16,7 @@ Who makes the first play is decided at random at the beginning of each round. Yo
 
 - `bundler` (A Ruby gem for handling project dependencies. Install by running `$ gem install bundler` after `Ruby` has been installed.)
 
-- `tput` (Used to check the size of the terminal `tic-tac-toe` is run withing. Installed by default on most Linux distributions.)
+- `tput` (Used to check the size of the terminal `tic-tac-toe` is run within. Installed by default on most Linux distributions.)
 
 ## Installation
 
