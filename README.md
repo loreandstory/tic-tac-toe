@@ -8,14 +8,22 @@
 
 Who makes the first play is decided at random at the beginning of each round. You may choose to play as many rounds as you like.
 
+## Dependencies
+
+`tic-tac-toe` requires the following:
+
+- `Ruby (>= 2.5.5)` (the programming language `tic-cac-toe` is written in. See [the official Ruby installation procedures](https://www.ruby-lang.org/en/documentation/installation/))
+- `bundler` (a Ruby gem for handling project dependencies. See [bundler's official installation instructions](https://bundler.io/#getting-started))
+- `tput` (used to check the size of the terminal `tic-tac-toe` is run withing. Installed by default on most Linux distributions)
+
 ## Installation
 
-`tic-tac-toe` requires `Ruby (>=2.7.0)` and `tput` (installed on most Linux distributions by default) to run properly. `Ruby` is the programming language `tic-tac-toe` is written in; `tput` is used within `tic-tac-toe` to know the size of the terminal the game is run in.
-
-To install `tic-tac-toe` and run it on your system, simply clone the this repository to your machine and follow the steps listed in the section below to play.
+To install `tic-tac-toe`, simply clone this repository to your machine, navigate to the `tic-tac-toe` folder created, and use `bundler` to install the needed dependencies, as shown below:
 
 ```
 $ git clone https://github.com/loreandstory/tic-tac-toe.git
+$ cd tic-tac-toe
+$ bundle install
 ```
 
 ## Running
@@ -23,8 +31,8 @@ $ git clone https://github.com/loreandstory/tic-tac-toe.git
 You must be `cd`'d into the `tic-tac-toe` folder and execute `play.sh` to play:
 
 ```
-$ cd /path/to/tic-tac-toe
+$ cd /path/to/tic-tac-toe/
 $ ./play.sh
 ```
 
-Note that you can exit the game at any time by pressing `Ctrl-c`.
+Note that you can exit the game at any time by pressing `Ctrl-c`. Otherwise, you may enter `n` at the end of each round to exit, or enter `y` to play another round.

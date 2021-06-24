@@ -1,4 +1,4 @@
-$LOAD_PATH << '.'
+$LOAD_PATH << 'modules/'
 
 require 'rubygems'
 require 'bundler/setup'
